@@ -1,0 +1,222 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+/* -----------
+      Header
+   -----------  */
+header{
+    background-color: #EAF6F6;
+   height: 100vh;
+   
+} 
+
+header h1 {
+    position: absolute;
+    color:#66BFBF;
+    margin: 150px 0px 100px 600px;
+    font-family: Brush Script MT ;
+    font-style: italic;
+    font-size: 50px;
+
+
+}
+header h2{
+    position: absolute;
+    color:#66BFBF;
+    margin: 220px 0px 100px 600px;
+    font-family: Verdana;
+}
+#middle{
+    text-decoration: underline;
+    margin-right: -7px;
+}
+
+.imtop{
+    position: absolute;
+    right: 350px;
+    top: 50px;
+}
+.imbottom{
+    position: absolute;
+    top: 200px;
+    left: 230px;
+}
+.mountain{
+    position: absolute;
+    bottom: 0px;
+    margin:0px 0px 0px 30%;
+}
+/* -----------
+      My Self
+   -----------  */
+.first {
+    margin: 30px 40%;
+   
+}
+.first h2{
+     text-align: center;
+     color:#66BFBF;
+     font-size: 20px;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#self{
+    width: 200px;
+    height: 200px;
+    border:none;
+    border-radius:50%;
+    margin-left: 35px;
+    box-shadow: 0px 0px 10px 2px rgb(220, 215, 215);
+    cursor: pointer;
+}
+#self:hover{
+    box-shadow: 0px 0px 10px 6px rgb(220, 215, 215);
+
+}
+
+
+hr{ offset: none;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 7px dotted #EAF6F6;
+    width: 60px;
+}
+/* -----------
+    My Skills
+   -----------  */
+.second{
+    margin: 30px 27%;
+    width: 630px;
+   
+}
+.second h2{
+    color:#66BFBF;
+    text-align: center;
+    margin: 60px 0px 60px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.code{
+    width: 150px;
+    height: 150px;
+    border:none;
+    border-radius:50%;
+    float:left;
+    margin-right: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(220, 215, 215);
+    cursor: pointer;
+}
+.code:hover{
+    box-shadow: 0px 0px 10px 4px rgb(220, 215, 215);
+
+}
+.second h3{
+    color:#66BFBF;
+    font-family: sans-serif;
+}
+.iner2{
+    margin-top: 75px;
+}
+#para , #para2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.chillies{
+    width: 150px;
+    height: 150px;
+    border:none;
+    border-radius:50%;
+    float:right;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px 5px rgb(220, 215, 215);
+    cursor: pointer;
+}
+.chillies:hover{
+    box-shadow: 0px 0px 10px 8px rgb(220, 215, 215);
+
+}
+#hr2{
+    margin: 150px 0px 60px 48%;
+}
+/* -----------
+      GEt In touch
+   -----------  */
+
+.third{
+       width: 530px;
+        margin: 80px 31%;
+        
+    
+}
+.third h2{
+    color:#66BFBF;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.third h3{
+    color:#66BFBF;
+    text-align: center;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+#para-get{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.bnt{
+    background-color: #42aeae;
+    border:1px solid #42aeae;
+    border-radius:8px;
+    text-align: center;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    text-transform: uppercase;   
+    font-weight: bold; 
+    margin: 10px 0px 0px 180px;
+    cursor: pointer;
+}
+.bnt:hover{
+    background-color: #4ac0c0;
+}
+/* -----------
+      footer
+   -----------  */
+footer{
+    background-color:#66BFBF ;
+    width: 100%;
+    height: 150px;
+}
+.div1-footer{
+    margin: 20px 0px 10px 35%;
+}
+.div2-footer{
+    margin: 20px 0px 10px 39%;
+}
+.div1-footer ul,.div2-footer ul{
+    list-style: none;
+    display: flex;
+    
+}
+.div1-footer ul li{
+    margin: 40px 0px 10px 40px;
+}
+.div1-footer ul li a{
+    text-decoration: none;
+    color: #11999E;
+   
+}
+.div2-footer ul li a{
+    color:white;
+    text-decoration: none;
+    font-size:11px ;
+    word-spacing: 3px;
+    margin-left: 5px;
+}
+.div2-footer ul li a:hover{
+    text-decoration: underline;
+     bottom: 5px;
+}
+

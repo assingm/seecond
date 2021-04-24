@@ -1,0 +1,125 @@
+@media only screen and (max-width:1200px){
+    .imtop{
+        right: 16%;
+    }
+    .imbottom{
+        left: 15%;
+    }
+    header h1{
+        margin: 150px 0px 100px 52%;
+    }
+    header h2{
+        margin: 220px 0px 100px 52%;
+    }
+    .second{
+         margin: 30px 25%;
+        }
+
+}
+    @media only  screen and (max-width:1023px) {
+        .second{
+         margin: 30px 17%;
+        }
+        .mountain{
+            margin:0px 0px 0px 25%;
+        }
+        
+    }
+    @media only screen and (max-width:814px){
+        #self{
+            margin-left: 0%;
+        }
+        .second{
+         margin: 30px 0px 30px 10%;
+        }
+        .mountain{
+            margin:0px 0px 0px 10%;
+        }
+        .third{
+            margin: 80px 19%;
+            
+        }
+
+    }
+    @media only screen and (max-width:767px){
+        header h1{
+            margin: 150px 0px 100px 50%;
+
+        }
+        header h2{
+            margin: 200px 0px 100px 50%;
+        }
+        .mountain{
+            margin:0px 0px 0px 20%;
+            width: 70%;
+            height: 70%;
+        }
+        .div1-footer{
+            margin: 20px 0px 10px 23%;
+        }
+        .div2-footer{
+            margin: 20px 0px 10px 29%;
+            
+        }
+        .second{
+            width: 70%;
+            margin: 30px 0px 30px 13%;
+        }
+        .third{
+            margin: 80px 14%;
+            width: 60%;
+        }
+        .third h2,.third h3,#para-get{
+            text-align: left;
+        }
+        .bnt{
+            margin: 10px 0px 0px 15%;
+            width: 70%;
+            font-size: 80%;
+        }
+
+    }
+    @media only screen and (max-width:425px){
+        header h1{
+            margin: 100px 0px 150px 30%;
+
+        }
+        header h2{
+            margin: 150px 0px 50% 30%;
+        }
+        .first {
+            margin-left: 10%;
+           
+        }
+        .code,.chillies{
+            float: none;
+            margin-left: 0%;
+        }
+        .second{
+          width: 50%;
+        }
+        .third{
+            margin: 80px 0% 80px 10%;
+            width: 50%;
+        }
+        .third h2,.third h3,#para-get{
+            text-align: left;
+        }
+        .bnt{
+            margin: 10px 0px 0px 10%;
+            width: 70%;
+            font-size: 80%;
+        }
+        footer{
+            height: 300px;
+        }
+        .div1-footer,.div2-footer{
+            margin: 20px 0px 10px 10%;
+        }
+        .div1-footer ul,.div2-footer ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
